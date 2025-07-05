@@ -1,0 +1,88 @@
+.menu-container {
+  width: 90vw;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.title h1 {
+  font-size: 30px;
+}
+
+.underline {
+  margin-top: -22px;
+  height: 5px;
+  width: 8%;
+  background-color: goldenrod;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.filter-btn {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 100;
+  color: goldenrod;
+}
+
+.section {
+  height: 100%;
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
+}
+
+.container {
+  /* height: 30%; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.img-container {
+  border: 5px solid goldenrod;
+  height: 200px;
+  border-radius: 0.25rem;
+}
+
+img {
+  height: inherit;
+  width: inherit;
+  object-fit: cover;
+}
+
+.data-container {
+  padding: 0 12px;
+  margin-top: -20px;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px gray dotted;
+}
+
+h4 {
+  color: black;
+  font-weight: 700;
+}
+
+.price {
+  color: goldenrod;
+  font-weight: 700;
+}
+
+.description {
+  color: gray;
+}
